@@ -6,7 +6,7 @@ import pickle
 import tensorflow as tf 
 
 #model loading
-model=tf.keras.models.load_model("model.h5") 
+model=tf.keras.models.load_model("Model.h5") 
 
 #Scaler and encoder loading
 with open("Onehot_encoder_geo.pkl","rb") as file:
